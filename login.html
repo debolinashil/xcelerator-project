@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Login</title>
+		<link rel="stylesheet" href="MainPharma.css" />
+		<script type="text/javascript" src="login.js"></script>
+	</head>
+	<body>
+		<div id="big_wrapper">
+		<header id="top_header">
+			<h1>XYZ Pharmaceutical Company</h1>
+		</header>
+		<nav id="top_menu">
+			<ul class="header1">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contacts.html">Contact Us</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+		<div id="main_section">
+		<h4 id="log"><span style="color:white">LOGIN</span></h4>
+			<div id="forms">
+			<form name="myForm" action="logged.html" onsubmit="return validate()">
+				
+  				<div class="container">
+				<input type="text" name="username" id="username" placeholder="Enter Username" required>
+				<input type="password" name="pwd" id="pwd" placeholder="Enter Password" required>
+				<button type="submit">Login</button><br/>
+				<input type="checkbox" checked="checked">Remember me
+				</div>
+				<div class="container" style="background-color:#f1f1f1">
+    			<button type="button" class="cancelbtn">Cancel</button>
+    			<span class="psw">Forgot <a href="#">password?</a></span>
+  				</div>
+			</form>
+			</div>
+		</div>
+		<footer id="bottom_footer">
+			<p id="foot">copyright &copy; for XYZ pharmaceutical company 2017.</p>
+		</footer>
+		</div>
+	</body>
+</html>

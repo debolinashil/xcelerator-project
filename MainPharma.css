@@ -1,0 +1,361 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-weight:bold;
+	font-size:35px;
+	font-family:Tahoma;
+	color:#4CAF50;
+	text-shadow:1px 1px 2px grey;
+}
+h2{
+	font-weight:bold;
+	font-size:20px;
+	font-family:Tahoma;
+	font-style:italic;
+	color:rgba(105,105,105,0.9);
+}
+h4{
+	border:1px solid #4CAF50;
+	text-align:center;
+	margin:30px;
+	padding:5px;
+	font:normal 14px Tahoma;
+}
+h5{
+	font:bold 12px Tahoma;
+	color:grey;
+	margin-left:30px;
+	margin-top:20px;
+	padding:5px;
+}
+p{
+	font-size:15px;
+	font-family:Tahoma;
+	font-style:italic;
+	color:white;
+}
+header, nav, section, footer{
+	display:block;
+}
+body{
+	text-align:center;
+}
+#big_wrapper{
+	border:1px solid #4CAF50;
+	width:1000px;
+	margin:20px auto;
+	text-align:left;
+}
+#top_header{
+	background:white;
+	padding:20px;
+	text-align:center;
+}
+#top_menu{
+	background:white;
+	color:grey;
+	text-align:right;
+	border-bottom:1px solid #4CAF50;
+	
+}
+
+#top_menu li{
+	display:inline-block;
+	link-style:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:40px;
+	font: bold 18px Tahoma;
+}
+#main_section{
+	float:center;
+	border:1px solid rgba(0,0,0,0);
+	margin:10px;
+}
+#main_about{
+	float:center;
+	border:1px solid rgba(0,0,0,0);
+	margin:10px;
+}
+#main_about li{
+	font:normal 14px Tahoma;
+	color:grey;
+	margin-top:5px;
+	margin-left:15%;
+}
+#top_section{
+	float:center;
+	margin:10px;
+	padding:20px;
+	background-image:URL("https://www.ube.com/contents/en/pharmaceutical/img/prod_pharmaceutical.jpg");
+	background-image-width:100%;
+	background-repeat:repeat-x;
+}
+#bottom_section{
+	float:center;
+	margin:10px;
+	
+}
+#content{
+	
+	margin:200px;
+	font:bold 20px Tahoma;
+	color:rgba(0,0,1,0.6);
+	border:1px solid;
+	border-color:rgba(0,0,0,0);
+	padding:10px;
+	
+}
+#bottom_footer{
+	clear:both;
+	border-top:1px solid #4CAF50;
+	background:#4CAF50;
+	text-align:center;
+	padding:20px;
+	margin-top:50px;
+}
+#goals{
+	text-align:center;
+}
+#goals li{
+	display:inline-block;
+	list-style:none;
+	padding:20px;
+	margin:30px;
+	font:bold 14px Tahoma;
+	background:#f0fff0;
+	border:1px solid;
+	border-color:#4CAF50;
+	color:rgba(0,0,0,0.7);
+	
+}
+a:link{
+	text-decoration:none;
+	color:grey;
+	
+}
+a:visited{
+	text-decoration:none;
+	color:grey;
+}
+a:hover{
+	text-decoration:none;
+	color:white;
+	background-color:#4CAF50;
+	border:1px solid #4CAF50;
+	padding:5px;
+	margin:5px;
+}
+a:active{
+	text-decoration:none;
+	color:grey;
+	background-color:#4CAF50;
+}
+#foot{
+	color:white;
+	font-size:14px;
+	font-style:normal;
+	font-family:Tahoma;
+}
+#vision{
+	font:normal 14px grey;
+	margin-top:10px;
+	margin-left:40px; 
+	margin-bottom:30px;
+}
+.product{
+	float: center;
+}
+.product a{
+	display: block;
+	border: 1px solid #4CAF50;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10%;
+	margin-right:10%;
+	padding:5px;
+	text-align:center;
+	font:bold 20px Tahoma;	
+}
+.product a:link{
+	text-decoration:none;
+	color:grey;
+	
+}
+.product a:visited{
+	text-decoration:none;
+	color:grey;
+}
+.product a:hover{
+	text-decoration:none;
+	color:white;
+	background-color:#4CAF50;
+	border:1px solid #4CAF50;
+	padding:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10%;
+	margin-right:10%;
+}
+.product a:active{
+	text-decoration:none;
+	color:grey;
+	background-color:#4CAF50;
+}  
+#main_prod{
+	float:center;
+	border:1px solid rgba(0,0,0,0);
+	margin:10px;
+}  
+#main_contact{
+	float:center;
+	border:1px solid rgba(0,0,0,0);
+	margin:10px;
+}
+#contHead{
+	font:bold 14px Tahoma;
+	color:grey;
+	margin-left:50px;
+	margin-top:20px;
+	padding:5px;
+}
+#contBody{
+	font:normal 14px Tahoma;
+	color:grey;
+	margin-left:50px;
+	margin-top:20px;
+	padding:5px;
+}
+#main_contact a:link{
+	text-decoration:none;
+	color:grey;
+	
+}
+#main_contact a:hover{
+	text-decoration:underline;
+	color:grey;
+	background:white;
+	border:1px solid white;
+	
+}
+#main_contact a:visited{
+	text-decoration:none;
+	color:grey;
+	
+}
+#main_contact a:active{
+	text-decoration:none;
+	color:grey;
+}
+#forms{
+	float:center;
+	border:1px solid #4CAF50;
+	margin-left:20%;
+	width:60%;
+}
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin-left:15%;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#log{
+	background:#4CAF50;
+	border:1px solid #4CAF50;
+	text-align:center;
+	margin:30px;
+	padding:5px;
+	font:normal 14px Tahoma;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:15%;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+}
+button:hover {
+    opacity: 0.8;
+}
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    margin:20px;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+table{
+	margin-top:40px;
+    margin-left:20%;
+}
+table, th, td {
+    border: 1px solid #4CAF50;
+    border-collapse: collapse;
+    
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    font-size:16px;
+    font-family:Tahoma;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color:#4CAF50 ;
+    color: white;
+}
+#olist{
+	border:1px solid rgba(0,0,0,0);
+	margin:40px;
+	padding:20px;
+	
+}
+#olist li{
+	color:grey;
+	font:normal 16px Tahoma;
+}
+#olist1{
+	border:1px solid rgba(0,0,0,0);
+	margin:40px;
+	padding:20px;
+	
+}
+#olist1 li{
+	color:grey;
+	font:normal 16px Tahoma;
+}
